@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle?</h1>
+      <form id="add">
+        <div class="form-group">
+          <label for="num1">1st Side:</label>
+          <input id="num1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="num2">2nd Side:</label>
+          <input id="num2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="num3">3rd Side:</label>
+          <input id="num3" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">What kind of triangle is this?</button>
+      </form>
+      <div id="output">
+        <p>This is a <span id="triangle"></span></p>
+
+      </div>
+    </div>
+  </body>
+</html>
